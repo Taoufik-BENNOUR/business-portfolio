@@ -1,0 +1,36 @@
+[debug] [2023-07-22T15:44:12.137Z] ----------------------------------------------------------------------
+[debug] [2023-07-22T15:44:12.139Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-22T15:44:12.140Z] CLI Version:   12.4.2
+[debug] [2023-07-22T15:44:12.140Z] Platform:      win32
+[debug] [2023-07-22T15:44:12.140Z] Node Version:  v18.13.0
+[debug] [2023-07-22T15:44:12.141Z] Time:          Sat Jul 22 2023 17:44:12 GMT+0200 (Central European Summer Time)
+[debug] [2023-07-22T15:44:12.141Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-22T15:44:12.150Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-22T15:44:12.150Z] > authorizing via signed-in user (ultrasarabic@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ASUS\Desktop\fullstack_apps\business_portfolio
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2023-07-22T15:44:22.932Z] setProjectAccount(C:\Users\ASUS\Desktop\fullstack_apps\business_portfolio, ultrasarabic@gmail.com)
+[info] 
+[info] +  Using account: ultrasarabic@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
