@@ -1,4 +1,7 @@
 
+.container{
+    height: 100vh;
+}
 .items{
     display: flex;
     align-items: center;
