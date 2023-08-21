@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import {notFound} from "next/navigation"
 
 async function getData(id) {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`,{
+  const res = await fetch(`http://localhost:3000/api/posts/${id}`,{
     cache:"no-store"
   })
   if (!res.ok) {
@@ -20,7 +20,7 @@ const BlogPost =async ({params}) => {
       <div className={styles.info}>
         <h1 className={styles.title}>{data.title}</h1>
         <p className={styles.desc}>
-          {data.desc}
+          {data.description}
         </p>
         <div className={styles.author}>
           <Image

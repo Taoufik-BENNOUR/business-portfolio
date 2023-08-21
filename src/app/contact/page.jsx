@@ -2,6 +2,10 @@ import Image from "next/image"
 import styles from "./page.module.css"
 import Button from "@/components/button/Button"
 
+export const metadata = {
+  title: 'Business Contact',
+  description: 'Business Portfolio',
+}
 const Contact = () => {
   return (
     <div className={styles.container}>

@@ -3,7 +3,7 @@ import styles from "./page.module.css"
 import Image from "next/image"
 
 async function getData() {
-  const res = await fetch('https://jsonplaceholder.typicode.com/posts',{
+  const res = await fetch('http://localhost:3000/api/posts',{
     cache:"no-store"
   })
   if (!res.ok) {
@@ -14,11 +14,11 @@ async function getData() {
 }
 const Blog = async() => {
 
-  const data = await getData()
+  const data = await getData();
   return (
     <div className={styles.mainContainer}>
     {data.map((item) => 
-      <Link href={`/blog/${item.id}`} className={styles.container} key={item.id}>
+      <Link href={`/blog/${item._id}`} className={styles.container} key={item._id}>
         <div className={styles.imageContainer}>
           <Image
             src={"https://images.unsplash.com/photo-1636036769389-343bb250f013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"}
